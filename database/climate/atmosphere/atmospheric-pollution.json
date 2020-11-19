@@ -1,0 +1,20 @@
+{
+    "path": "climate/atmosphere/atmospheric-pollution.json",
+    "label": "Atmospheric pollution",
+    "description": "Pollutant chemicals, compounds & particles in the atmosphere.",
+    "relationships": [
+        {
+            "path": "./atmospheric-co2.json",
+            "type": "caused by",
+            "description": "Dramatic changes to air composition"
+        },
+        {
+            "path": "./atmospheric-temperature.json",
+            "type": "causes",
+            "description": "Changes in reflectivity, transmissibility and capture of energy from the sun"
+        }
+    ],
+    "metadata": {
+        "categories": ["climate change", "chemistry", "physics"]
+    }
+}

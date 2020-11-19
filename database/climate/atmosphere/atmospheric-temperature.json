@@ -1,0 +1,25 @@
+{
+    "path": "climate/atmosphere/atmospheric-temperature.json",
+    "label": "Atmospheric temperature",
+    "description": "The temperature of the atmosphere",
+    "relationships": [
+        {
+            "path": "./atmospheric-co2.json",
+            "type": "caused by",
+            "description": "Changes to the capture of energy from the sun"
+        },
+        {
+            "path": "./atmospheric-pollution.json",
+            "type": "caused by",
+            "description": "Changes in reflectivity, transmissibility and capture of energy from the sun"
+        },
+        {
+            "path": "../aquatic/ocean-temperature.json",
+            "type": "causes",
+            "description": "Conducts heat energy to the oceans"
+        }
+    ],
+    "metadata": {
+        "categories": ["climate change", "chemistry", "physics"]
+    }
+}

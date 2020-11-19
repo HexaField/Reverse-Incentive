@@ -1,0 +1,25 @@
+{
+    "path": "climate/atmosphere/atmospheric-co2.json",
+    "label": "Atmospheric co2",
+    "description": "Increased carbon dioxide released into the atmosphere",
+    "relationships": [
+      {
+        "path": "./atmospheric-pollution.json",
+        "type": "causes",
+        "description": "Dramatic changes to air composition"
+      },
+      {
+        "path": "./atmospheric-temperature.json",
+        "type": "causes",
+        "description": "Changes to the capture of energy from the sun"
+      },
+      {
+        "path": "../../energy/hydrocarbon-combustion.json",
+        "type": "caused by",
+        "description": "Unsustainable energy production"
+      }
+    ],
+    "metadata": {
+      "categories": ["ecological instability", "climate change", "chemistry"]
+    }
+}
